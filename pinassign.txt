@@ -1,0 +1,68 @@
+inf1 
+	magic number	'H'
+	major number	237
+	minor number	0
+
+	- CS:	GPIO25
+	- DIN:	GPIO10
+	- DOUT:	GPIO9
+	- CLK:	GPIO11
+
+inf2
+	magic number	'I'
+	major number	-
+	minor number	0
+	- CS:	GPIO
+	- DIN:	GPIO
+	- DOUT:	GPIO
+	- CLK:	GPIO
+
+fire
+	magic number	'J'
+	major number	241
+	minor number	0
+	-
+	-
+	-
+	-
+
+
+servo1
+	magic number	'K'
+	major number	240
+	minor number	0
+	- PWM: GPIO21
+servo2
+	magic number	'L'
+	major number	239
+	minor number	0
+	- PWM: GPIO20
+
+buzzer
+	magic number	'M'
+	major number	238
+	minor number	0
+	- PWM: GPIO16
+
+gas
+	magic number	'N'
+	major number	242
+	minor number	0
+	- GPIO26
+
+
+mag
+	magic number	'O'
+	major number	243
+	minor number	0
+	- GPIO5
+
+motin
+	magic number	'P'
+	major number	511
+	minor number	0
+	- GPIO6
+	-
+	-
+
+

@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int state = 0;
+int a = 0;
+int count = 0;
+
+int a1, a2;
+int main(){
+
+
+
+	while (1)
+	{
+		printf("inner sencor");
+		scanf_s("%d", &a1);			
+		printf("outer sencor"); 
+		scanf_s("%d", &a2);
+		a = (a1>300) * 2 + (a2>300);
+		if (state == 0){
+			if (a == 1) state = 1; else if (a == 2) state = 2;
+		}
+		else if (state == 1){
+			if (a == 2) state = 3; else if (a == 0) state = 0;
+		}
+		else if (state == 2){
+			if (a == 1) state = 4; else if (a == 0) state = 0;
+		}
+		else if (state == 3){
+			if (a == 1) state = 1; else if (a == 0){ state = 0; count++; }
+		}
+		else if (state == 4){
+			if (a == 2) state = 2; else if (a == 0){ state = 0; count--; }
+		}
+		printf("count=%d\n\n", count);
+			
+		if ((불꽃 < 10) && !(가스)) break;
+	}
+
+
+	fork
+	
+
+	while (count)
+	{
+		printf("inner sencor");
+		scanf_s("%d", &a1);
+		printf("outer sencor");
+		scanf_s("%d", &a2);
+		a = (a1 > 300) * 2 + (a2 > 300);
+		if (state == 0){
+			if (a == 1) state = 1; else if (a == 2) state = 2;
+		}
+		else if (state == 1){
+			if (a == 2) state = 3; else if (a == 0) state = 0;
+		}
+		else if (state == 2){
+			if (a == 1) state = 4; else if (a == 0) state = 0;
+		}
+		else if (state == 3){
+			if (a == 1) state = 1; else if (a == 0){ state = 0; count++; }
+		}
+		else if (state == 4){
+			if (a == 2) state = 2; else if (a == 0){ state = 0; count--; }
+		}
+		printf("count=%d\n\n", count);
+
+	}
+
+	모션감지
+
+	while (문 닫혀있음){ }
+
+	goto 시작지점
+
+	return 0;
+}

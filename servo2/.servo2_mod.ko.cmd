@@ -1,0 +1,1 @@
+cmd_/home/pi/workspace/project/sysprog/servo2/servo2_mod.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/workspace/project/sysprog/servo2/servo2_mod.ko /home/pi/workspace/project/sysprog/servo2/servo2_mod.o /home/pi/workspace/project/sysprog/servo2/servo2_mod.mod.o ;  true
